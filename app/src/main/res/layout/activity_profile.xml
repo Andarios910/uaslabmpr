@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manfaat Vaksin Penting untuk Mencegah Penularan Penyakit"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="378dp"
+        android:layout_height="445dp"
+        android:text="Vaksin adalah zat atau senyawa yang berfungsi untuk membentuk daya tahan tubuh. Vaksin dapat merangsang tubuh agar menghasilkan antibodi yang dapat melawan kuman penyebab infeksi. Tidak hanya melindungi tubuh dari serangan penyakit serius, pemberian vaksin juga dapat membantu mencegah penyebaran penyakit.  Contohnya, kasus kematian pada bayi dan anak-anak akibat wabah penyakit campak dan pertusis (batuk rejan) yang dahulu pernah menggemparkan dunia. Hal ini terjadi karena pada saat itu belum ditemukan vaksin untuk kedua penyakit tersebut. Pemberian vaksin terbukti dapat menurunkan risiko seseorang terkena berbagai penyakit yang dapat mengakibatkan kematian maupun kecacatan. Misalnya, pemberian vaksin cacar pada anak-anak dapat membantu mencegah mereka terjangkit cacar di kemudian hari.  Begitu pula dengan pemberian vaksin campak dan rubela yang dapat membantu menurunkan risiko penularan virus tersebut dari ibu hamil kepada janin dalam kandungan maupun kepada bayi yang baru lahir. Pemberian vaksin merupakan salah satu investasi kesehatan yang paling murah karena terbukti dapat mencegah dan mengurangi angka kesakitan, kecacatan, dan kematian akibat suatu penyakit.  Pemberian vaksin dapat membantu seseorang terhindar dari berbagai macam penyakit yang dapat menyebabkan sakit berkepanjangan, yang tak hanya merugikan dari segi finansial namun juga waktu."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/vaksinbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VAKSIN!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+</androidx.constraintlayout.widget.ConstraintLayout>

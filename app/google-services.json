@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813239811131",
+    "project_id": "uaslabmpr-a981a",
+    "storage_bucket": "uaslabmpr-a981a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813239811131:android:870ebebdfdd85cc99fb01e",
+        "android_client_info": {
+          "package_name": "com.example.uaslabmpr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813239811131-tpme1kml3oknpjkp6eooge6avg41v8pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC137TIvwE-Ec5728U-WCt7LhyLc0djn1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813239811131-tpme1kml3oknpjkp6eooge6avg41v8pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
